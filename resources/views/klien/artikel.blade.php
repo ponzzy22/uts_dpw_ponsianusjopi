@@ -19,7 +19,7 @@
                 </div>
               </div>
               <div class="article-details">
-                <p>{{ $post->users->name }}</p>
+                {{-- <p>{{ $post->users->name }}</p> --}}
                 <div class="article-cta">
                   <a href="{{ route('detail', $post->id) }}" class="btn btn-primary">Lihat</a>
                 </div>

@@ -195,12 +195,12 @@
         <div class="container">
           <ul class="navbar-nav">
 
-            <form action="{{ url('artikel') }}" class="form-inline ml-auto">
+            {{-- <form action="{{ url('artikel') }}" class="form-inline ml-auto">
               <ul class="navbar-nav">
               </ul>
                 <input  class="form-control" type="search" placeholder="Search.." aria-label="Search" data-width="250" name="cari">
                 <button class="btn" type="submit"><i class="fas fa-search"></i></button>
-            </form>
+            </form> --}}
 
             <li class="nav-item dropdown nav-item active">
               <a href="#" data-toggle="dropdown" class="nav-link has-dropdown beep"><i class="fas fa-globe"></i><span>Dashboard</span></a>
